@@ -254,6 +254,19 @@ public class EntityManager<T> where T : Entity
              
              */
             #endregion
+            #region Q16
+            /*
+             
+             Contravariance enables you to use a more generic (base) type than originally specified
+            ---------------------
+            public interface IContravariant<in T>
+{
+    void SetItem(T item); // Valid as parameter type
+}
+             
+             */
+
+            #endregion
         }
     }
 }
