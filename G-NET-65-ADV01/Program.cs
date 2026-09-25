@@ -290,6 +290,17 @@ public class EntityManager<T> where T : Entity
              
              */
             #endregion
+            #region Q19
+
+            /*
+            Closed Generic Inheritance: Specifying a concrete type for the generic base class
+
+
+            Open Generic Inheritance: Keeping the child class generic and passing the type parameter down
+
+            */
+            #endregion
+
         }
     }
 }
