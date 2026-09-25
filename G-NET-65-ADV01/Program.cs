@@ -207,6 +207,19 @@ public class EntityManager<T> where T : Entity
              */
 
             #endregion
+            #region Q13
+            /*
+             The default keyword returns the default value of
+           a type parameter: null for reference types
+            and zero-initialized structures for value types
+            -----------------------
+
+
+
+             
+             */
+
+            #endregion
         }
     }
 }
