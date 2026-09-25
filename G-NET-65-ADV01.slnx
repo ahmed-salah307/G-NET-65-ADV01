@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Q20.cs" />
+  </Folder>
   <Project Path="G-NET-65-ADV01/G-NET-65-ADV01.csproj" />
 </Solution>
