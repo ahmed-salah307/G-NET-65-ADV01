@@ -111,6 +111,18 @@ namespace G_NET_65_ADV01
 
              */
             #endregion
+            #region Q7
+            /*
+             
+             The struct constraint restricts the type parameter to value types only
+            -----------------------
+            public class ValueContainer<T> where T : struct
+{
+    public T Value { get; set; }
+}
+             
+             */
+            #endregion
 
 
         }
