@@ -94,6 +94,23 @@ namespace G_NET_65_ADV01
              
              */
             #endregion
+            #region Q6
+            /*
+             
+             Generic Interface defines contracts (methods/properties) using generic 
+            type parameters, letting implementing classes specify the concrete type
+             ---------------------------------
+
+            public interface IRepository<T>
+{
+    void Add(T entity);
+    T GetById(int id);
+    IEnumerable<T> GetAll();
+    void Delete(T entity);
+}
+
+             */
+            #endregion
 
 
         }
