@@ -282,6 +282,14 @@ public class EntityManager<T> where T : Entity
              
              */
             #endregion
+            #region Q18
+            /*
+             
+             Static members in a generic class are not shared across different type instantiations. Each unique closed generic type 
+            has its own independent set of static fields
+             
+             */
+            #endregion
         }
     }
 }
