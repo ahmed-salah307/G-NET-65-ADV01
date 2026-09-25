@@ -123,7 +123,18 @@ namespace G_NET_65_ADV01
              
              */
             #endregion
-
+            #region Q8
+            /*
+             
+             The class constraint restricts the type parameter to reference types only
+            --------------------
+            public class ReferenceContainer<T> where T : class
+{
+    public T Item { get; set; }
+}
+             
+             */
+            #endregion
 
         }
     }
