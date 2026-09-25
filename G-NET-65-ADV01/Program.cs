@@ -189,6 +189,24 @@ public class EntityManager<T> where T : Entity
 
              */
             #endregion
+            #region Q12
+            /*
+             
+             You can apply multiple constraints by listing them separated by commas after the where clause
+            ----------------------------
+
+            public class AdvancedRepository<T> where T : Entity, IComparable<T>, new()
+{
+    public T CreateAndCompare(T other)
+    {
+        T newObj = new T();
+        return newObj.CompareTo(other) > 0 ? newObj : other;
+    }
+}
+             
+             */
+
+            #endregion
         }
     }
 }
