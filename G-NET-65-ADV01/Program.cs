@@ -241,8 +241,18 @@ public class EntityManager<T> where T : Entity
              */
 
             #endregion
-            #region MyRegion
+            #region Q15
+            /*
+             
+             Covariance enables you to use a more derived type than originally specified
+            ----------------------------
 
+            public interface ICovariant<out T>
+{
+    T GetItem(); // Valid as return type
+}
+             
+             */
             #endregion
         }
     }
