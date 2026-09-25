@@ -169,6 +169,26 @@ namespace G_NET_65_ADV01
              
              */
             #endregion
+            #region Q11
+            /*
+             
+             Base Class Constraint specifies that the type argument must inherit from a specific base class
+            ----------------
+            public class Entity
+{
+    public int Id { get; set; }
+}
+
+public class EntityManager<T> where T : Entity
+{
+    public void DisplayId(T entity)
+    {
+        Console.WriteLine(entity.Id);
+    }
+}
+
+             */
+            #endregion
         }
     }
 }
