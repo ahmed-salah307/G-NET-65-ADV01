@@ -1,4 +1,6 @@
-﻿namespace G_NET_65_ADV01
+﻿using System.Diagnostics;
+
+namespace G_NET_65_ADV01
 {
     internal class Program
     {
@@ -61,6 +63,25 @@
 
              */
             #endregion
+            #region Q4
+            /* Generic Method is a method defined with type parameters,
+                 allowing it to process parameters of various types dynamically
+            -----------------------------
+
+             public static class Helper
+ {
+     public static void Swap<T>(ref T a, ref T b)
+     {
+         T temp = a;
+         a = b;
+         b = temp;
+     }
+ }
+
+
+            */
+            #endregion
+
 
         }
     }
