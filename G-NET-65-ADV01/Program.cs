@@ -81,6 +81,19 @@ namespace G_NET_65_ADV01
 
             */
             #endregion
+            #region Q5
+            /*
+             
+             public static class MathHelper
+{
+    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+    {
+        return a.CompareTo(b) > 0 ? a : b;
+    }
+}
+             
+             */
+            #endregion
 
 
         }
