@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Data;
+using System.Diagnostics;
 
 namespace G_NET_65_ADV01
 {
@@ -135,7 +136,22 @@ namespace G_NET_65_ADV01
              
              */
             #endregion
+            #region Q9
+            /*
+            The new() constraint specifies that any type argument supplied must
+                have a public parameterless constructor, allowing the instantiation of T using new T()
 
+            ---------------------
+
+            public class Factory<T> where T : new()
+{
+    public T CreateInstance()
+    {
+        return new T();
+    }
+}
+            */
+            #endregion
         }
     }
 }
