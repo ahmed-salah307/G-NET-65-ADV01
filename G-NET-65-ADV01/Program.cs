@@ -152,6 +152,23 @@ namespace G_NET_65_ADV01
 }
             */
             #endregion
+            #region Q10
+            /*
+             
+             
+             An Interface Constraint specifies that the type argument must implement a particular interface
+            -----------------------
+
+             public class Printer<T> where T : IFormattable
+{
+    public void Print(T item)
+    {
+        Console.WriteLine(item.ToString());
+    }
+}
+             
+             */
+            #endregion
         }
     }
 }
