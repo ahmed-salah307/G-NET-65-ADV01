@@ -40,6 +40,28 @@
 }
              */
             #endregion
+            #region Q3
+            /*
+             
+             Multiple Type Parameters allow a class or method to operate on more than one specified type parameter
+             ------------
+
+            public class Pair<TKey, TValue>
+{
+    public TKey Key { get; set; }
+    public TValue Value { get; set; }
+
+    public Pair(TKey key, TValue value)
+    {
+        Key = key;
+        Value = value;
+    }
+}
+
+
+             */
+            #endregion
+
         }
     }
 }
