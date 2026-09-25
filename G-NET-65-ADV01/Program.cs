@@ -267,6 +267,21 @@ public class EntityManager<T> where T : Entity
              */
 
             #endregion
+            #region Q17
+            /*
+             
+             Covariance ;
+            out
+            Derived => Base
+             Output only
+            -----------------------
+            Contravariance;
+            in
+            Base => Derived
+            Input only
+             
+             */
+            #endregion
         }
     }
 }
